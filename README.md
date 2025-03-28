@@ -2,13 +2,13 @@
 
 
 
-Overview
+## Overview
 
 This document details the implementation of an earthquake early warning system leveraging a variational autoencoder (VAE). The model predicts 27 spectral accelerations based on 8 key ground motion parameters: Peak Ground Acceleration ($PGA$), Peak Ground Displacement ($PGD$), Predominant Frequency ($F_p$), 5-95% Significant Duration ($T_{sig}$), Arias Intensity ($I_a$), Cumulative Absolute Velocity ($CAV$), Site Class ($S_c$), and Direction Flag ($dir$).
 
-Library Installation and Importing Dependencies
+##Library Installation and Importing Dependencies
 
-Installation
+##Installation
 
 Ensure you have Python 3.x installed. Use the command below to install the required dependencies:
 
